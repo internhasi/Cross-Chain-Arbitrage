@@ -8,7 +8,6 @@ def get_token_price(chain, token_address):
     except:
         return None
 
-# අලුත් නෙට්වර්ක් සියල්ලම එකතු කරපු ලැයිස්තුව
 tokens = {
     "ethereum": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
     "polygon": "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
